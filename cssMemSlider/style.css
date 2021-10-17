@@ -53,33 +53,29 @@ img{
 
 .slide1{
     width: 100%;
-    border-radius: 2rem;
     background: no-repeat;
-    background-image: url("assets/Roll-Safe-Think-About-It.jpg");
+    background-image: url("assets/2.png");
     background-size: 100% 80%;
 }
 
 .slide2{
     width: 100%;
-    border-radius: 2rem;
     background: no-repeat;
-    background-image: url("assets/Roll-Safe-Think-About-It.jpg");
+    background-image: url("assets/1.png");
     background-size: 75% 80%;
 }
 
 .slide3{
     width: 100%;
-    border-radius: 2rem;
     background: no-repeat;
-    background-image: url("assets/Roll-Safe-Think-About-It.jpg");
+    background-image: url("assets/3.png");
     background-size: 50% 80%;
 }
 
 .slide4{
     width: 100%;
-    border-radius: 2rem;
     background: no-repeat;
-    background-image: url("assets/Roll-Safe-Think-About-It.jpg");
+    background-image: url("assets/4.png");
     background-size: 25% 80%;
 }
 
