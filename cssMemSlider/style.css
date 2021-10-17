@@ -46,9 +46,9 @@ img{
 
 .text{
     position: relative;
-    top: 83%;
+    top: 84%;
     color: rgb(219, 217, 243);
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .slide1{
@@ -150,4 +150,41 @@ img{
   }
   #point4:checked ~ .label4 {
     background-color: rgb(42, 45, 48);
+  }
+
+
+  @media (max-width: 1020px){
+    .slides{
+        margin-top: 2vh;        
+    }
+    .text{
+        font-size: 1.5rem;
+    }
+  }
+
+  @media (max-height: 800px){
+    .slides{
+        margin-top: 2vh;
+    }
+  }
+
+  
+  @media (max-width: 420px){
+    .wrapper{
+        width: 90%;
+    }
+    .slider{
+        height: 70vh;
+    }
+    .slides{
+        height: 60%;
+        margin-top: 1vh;
+    }
+    .text{
+        top: 105%;
+    }
+    .label{
+        top: 63%;
+        left: 30%;
+    }
   }
