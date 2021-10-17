@@ -110,7 +110,7 @@ img{
 
 .label::after {
     cursor: pointer;
-    border: 2px solid #6441ff;
+    border: .15rem solid #6441ff;
     content: '';
     display: block;
     height: .55rem;
@@ -120,7 +120,7 @@ img{
     border-radius: 50%;
 }
 .label::after:hover{
-    border: 2px solid rgb(219, 217, 243);
+    border: .15rem solid rgb(219, 217, 243);
 }
 
 #point1:checked ~ .slides > .slide1 {
